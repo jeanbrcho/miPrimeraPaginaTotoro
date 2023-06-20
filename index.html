@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi primera página</title>
+</head>
+<body>
+
+  <header>
+    <div class="container-nav">
+      <nav class="navbar" role="navigation">
+        <img class="logo" src="totoro.png" alt="Nyan cat" onclick="mostrarOcultarAudio()">
+        <ul class="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html">Acerca de</a></li>
+          <li><a href="services.html">Servicios</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <button class="button-menu-toggle">Menú</button>
+    </div>
+    <audio id="audio" style="visibility:hidden" controls loop><source src="Path of the Wind (My Neighbor Totoro Original Motion Picture Soundtrack).mp3" type="audio/mp3">Este es un elemento de audio no soportado por tu navegador, prueba con otro...</audio>
+  </header>
+
+
+  <main>
+
+    <div class="container-main">
+      <div class="text">
+        <h1>¡Bienvenidos a mi primer Website!</h1>
+  
+        <h2 class="h2">Me presento</h2>
+        <p>Soy Jean, ¡y esta es mi primera página web! <br>
+          Estoy aprendiendo a desarrollo web para crear sitios web visualmente atrapantes y funcionales.
+        </p>
+  
+        <h2 class="h2">Lo que haré</h2>
+        <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos lenguajes me ayudarán a crear una base sólida en el desarollo web front-end.
+        </p>
+
+        <div class="button">
+          <button class="alerta" onclick="showAlert()" aria-label="Haz clic en mí">¡Haz clic en mi!</button>
+        </div>
+      </div>
+
+      <div>
+        <div class="videos">
+          <iframe width="600" height="315" src="https://www.youtube.com/embed/GlNVGE2PXqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="slider-container">
+          <div class="slider">
+            <img src="https://th.bing.com/th/id/OIP.rFCWshsLmNk1uwTJCdfHDAHaEK?pid=ImgDet&rs=1" alt="Imagen 1" />
+            <img src="https://th.bing.com/th/id/OIP.Fe8Q7mHtB9a_DRz-m9KTogHaE6?pid=ImgDet&rs=1" alt="Imagen 2" />
+            <img src="https://th.bing.com/th/id/R.d4a1f17d61f4839b6264209b77709859?rik=nWa9SIsWHty%2fkA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-sAl_7NTRusY%2fTdE9hjWLWHI%2fAAAAAAAAACs%2fgvG7YY-Olro%2fs1600%2ftotoro_004.jpg&ehk=xauJ30Q2BMxuJ9ZgphkBlxOC7UivTJRsJdqwbpey50w%3d&risl=&pid=ImgRaw&r=0" alt="Imagen 3" />
+          </div>
+          <button class="slider-prev">Anterior</button>
+          <button class="slider-next">Siguiente</button>
+        </div>
+      </div>
+    </div>
+    
+  </main>
+    
+  <footer id="footer">
+    <div class="pie">
+      <p>Copyright © 2023 Todos los derechos reservados.</p>
+      <p>Path of the Wind (My Neighbor Totoro Original Motion Picture Soundtrack) ℗ 2020 Grissini Project.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

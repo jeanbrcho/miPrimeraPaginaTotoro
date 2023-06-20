@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Acerca de</title>
+    <style>
+        .imagenes {
+            display: flex;
+        }
+        .imagenes img {
+            width: 35%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container-nav">
+          <nav class="navbar" role="navigation">
+            <img class="logo" src="totoro.png" alt="Nyan cat" onclick="mostrarOcultarAudio()">
+            <ul class="nav-links">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="about.html">Acerca de</a></li>
+              <li><a href="services.html">Servicios</a></li>
+              <li><a href="contact.html">Contacto</a></li>
+            </ul>
+          </nav>
+          <button class="button-menu-toggle">Menú</button>
+        </div>
+        <audio id="audio" style="visibility:hidden" controls loop><source src="Path of the Wind (My Neighbor Totoro Original Motion Picture Soundtrack).mp3" type="audio/mp3">Este es un elemento de audio no soportado por tu navegador, prueba con otro...</audio>
+      </header>
+
+    <div class="container">
+        <h1>Acerca de</h1>
+        <p>¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más sobre nuestra empresa y los servicios que ofrecemos.</p>
+
+        <div class="imagenes">
+            <img src="https://i.pinimg.com/originals/69/55/08/69550894f089921933187e5a3d4297f0.gif" alt="Darth Vader" />
+            <img src="https://3.bp.blogspot.com/-ABvc87t_CJY/Un6_xUpaFcI/AAAAAAAAACw/8aJSd-BiIok/s400/totoro_gif_by_ictoan12-d5727p2.gif" alt="Totoro" />
+            <img src="https://i.pinimg.com/originals/de/4f/6c/de4f6c5af9b32d1b3b9d471fb614b889.gif" alt="Dementor" />
+        </div>
+
+    </div>
+
+    <footer id="footer">
+        <div class="pie">
+          <p>Copyright © 2023 Todos los derechos reservados.</p>
+          <p>Path of the Wind (My Neighbor Totoro Original Motion Picture Soundtrack) ℗ 2020 Grissini Project.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
