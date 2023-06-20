@@ -18,6 +18,12 @@ p {
   font-size: 18px;
   text-align: center;
 }
+.servicios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 /* barra de navegación */
 header {
